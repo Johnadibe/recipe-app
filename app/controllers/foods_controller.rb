@@ -1,14 +1,14 @@
 class FoodsController < ApplicationController
-    # before_action :authenticate_user!
-    def index
-        @foods = Food.all
-    end
+  # before_action :authenticate_user!
+  def index
+    @foods = Food.all
+  end
 
-    def new
-        @food = Food.new
-    end
+  def new
+    @food = Food.new
+  end
 
-    def create
+  def create
     # food = Food.new(food_params)
     # food.user = current_user
     food = current_user.foods.new(food_params)
