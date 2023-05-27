@@ -20,9 +20,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BLOG-APP] <a name="about-project"></a>
+# 📖 [RECIPE-APP] <a name="about-project"></a>
 
-**[Blog-App]** This is a basic Blog website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
+**[RECIPE-App]** This is a Ruby on Rails app that allows user to create, delete, and read recipes created by them or the community, allowing the users to decide whether they'd be public or not. Additionally, it allows users to create food records and generate a shopping list based on the missing food for their recipes. It comes with authentication and authorization functionality.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,8 +39,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add User View]**
-- **[Add User Form]**
+- **[Add Logon and Registration Page]**
+- **[Add Food List and Recipe List]**
+- **[Add Public Recipe List]**
+- **[Add Recipe Details and General shopping list view]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Johnadibe/blog_app.git
+  git clone https://github.com/Johnadibe/recipe-app.git
 ```
 
 ### Install
@@ -76,7 +78,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd create-data-model
+  cd add-public-recipe-shopping-list
   bundle install
 ```
 
@@ -103,12 +105,6 @@ To run the project, execute the following command:
 - Twitter: [@JohnAdibe2](https://twitter.com/JohnAdibe2)
 - LinkedIn: [@John Adibe](https://www.linkedin.com/in/john-adibe/)
 
-👤**Chukwuemeka Ochuba**
-
-- GitHub: [@Donmark2k](https://github.com/Donmark2k)
-- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -116,8 +112,8 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add Authentication]**
-- [ ] **[Add API EndPoints]**
+- [ ] **[Add Admin Dashboard]**
+- [ ] **[Add More Styles to User Page]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,7 +124,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ram1117/bibliothek-ruby-oops/issues).
+Feel free to check the [issues page](https://github.com/Johnadibe/recipe-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
