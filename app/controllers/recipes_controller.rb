@@ -1,6 +1,6 @@
 class RecipesController < ApplicationController
   def index
-    @recipes = Recipe.all
+    @recipes = Recipe.includes([:user]).all
   end
 
   def show
@@ -12,7 +12,15 @@ class RecipesController < ApplicationController
   end
 
   def public
-    @recipe = Recipe.where(public: true)
+    @totals = {}
+    @public_recipes = Recipe.includes(:foods, :user).where(public: true).order('created_at DESC')
+    @public_recipes.each do |pub|
+        total = 0
+        RecipeFood.where(recipe_id: pub.id).each do |rec_food|
+            total += rec_food.quantity * rec_food.food.price
+        end
+        @totals[pub.name] = total
+    end
   end
 
   def create
