@@ -1,5 +1,4 @@
 require 'rails_helper'
-
 RSpec.describe 'Testing recipes view', type: :feature do
   describe 'Recipes#index' do
     before(:each) do

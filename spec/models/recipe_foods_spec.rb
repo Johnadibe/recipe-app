@@ -1,5 +1,4 @@
 require 'rails_helper'
-
 RSpec.describe RecipeFood, type: :model do
   describe 'recipe_foods model' do
     user = User.create(name: 'Goodluck', email: 'johnadibe123@gmail.com', password: '111111')
