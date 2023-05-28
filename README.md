@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -43,6 +44,12 @@
 - **[Add Food List and Recipe List]**
 - **[Add Public Recipe List]**
 - **[Add Recipe Details and General shopping list view]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="key-features"></a>
+
+[Live Demo Link](https://recipeapp-nose.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
